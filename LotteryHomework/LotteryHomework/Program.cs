@@ -17,6 +17,7 @@ namespace 樂透
             {
 
                 Console.WriteLine("還剩下" + j + "次");
+                Console.WriteLine("請按ENTER開下一次獎");
                 int r1 = r.Next(1, 49);
                 int r2 = r.Next(1, 49);
                 int r3 = r.Next(1, 49);
